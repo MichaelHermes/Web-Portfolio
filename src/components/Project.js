@@ -6,11 +6,11 @@ export default function Project({ name }) {
 
 	return (
 		<div className="col-md-6">
-			<a href={gitHub} target="_blank" rel="noreferrer">
+			<a href={url} target="_blank" rel="noreferrer">
 				<ProjectImage name={name} />
 			</a>
 			<h3 className="project-title">
-				<a href={url} target="_blank" rel="noreferrer">
+				<a href={gitHub} target="_blank" rel="noreferrer">
 					{name}
 				</a>
 			</h3>
