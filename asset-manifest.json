@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Web-Portfolio/static/css/main.4fe9ee18.chunk.css",
+    "main.js": "/Web-Portfolio/static/js/main.b06c3905.chunk.js",
+    "main.js.map": "/Web-Portfolio/static/js/main.b06c3905.chunk.js.map",
+    "runtime-main.js": "/Web-Portfolio/static/js/runtime-main.0ba991bc.js",
+    "runtime-main.js.map": "/Web-Portfolio/static/js/runtime-main.0ba991bc.js.map",
+    "static/js/2.e63ff993.chunk.js": "/Web-Portfolio/static/js/2.e63ff993.chunk.js",
+    "static/js/2.e63ff993.chunk.js.map": "/Web-Portfolio/static/js/2.e63ff993.chunk.js.map",
+    "static/js/3.039731c2.chunk.js": "/Web-Portfolio/static/js/3.039731c2.chunk.js",
+    "static/js/3.039731c2.chunk.js.map": "/Web-Portfolio/static/js/3.039731c2.chunk.js.map",
+    "index.html": "/Web-Portfolio/index.html",
+    "static/css/main.4fe9ee18.chunk.css.map": "/Web-Portfolio/static/css/main.4fe9ee18.chunk.css.map",
+    "static/js/2.e63ff993.chunk.js.LICENSE.txt": "/Web-Portfolio/static/js/2.e63ff993.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Web-Portfolio/static/media/1.42cc1a58.jpg",
+    "static/media/CityScan.48ae4ac5.png": "/Web-Portfolio/static/media/CityScan.48ae4ac5.png",
+    "static/media/CodingQuiz.05b543d2.png": "/Web-Portfolio/static/media/CodingQuiz.05b543d2.png",
+    "static/media/WeatherDashboard.ef4744de.png": "/Web-Portfolio/static/media/WeatherDashboard.ef4744de.png",
+    "static/media/YourForum.fc4a7a6e.png": "/Web-Portfolio/static/media/YourForum.fc4a7a6e.png",
+    "static/media/avatar.b1e5f72e.jpg": "/Web-Portfolio/static/media/avatar.b1e5f72e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ba991bc.js",
+    "static/js/2.e63ff993.chunk.js",
+    "static/css/main.4fe9ee18.chunk.css",
+    "static/js/main.b06c3905.chunk.js"
+  ]
+}
