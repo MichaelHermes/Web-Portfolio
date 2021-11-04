@@ -1,35 +1,27 @@
-import React, { useState } from 'react';
-import NavTabs from './NavTabs';
-import Home from './pages/Home';
-import About from './pages/About';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import Footer from './Footer';
+import ProjectList from './ProjectList';
 
 export default function PortfolioContainer() {
-	const [currentPage, setCurrentPage] = useState('Home');
-
-	// This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
-	const renderPage = () => {
-		if (currentPage === 'Home') {
-			return <Home />;
-		}
-		if (currentPage === 'About') {
-			return <About />;
-		}
-		if (currentPage === 'Blog') {
-			return <Blog />;
-		}
-		return <Contact />;
-	};
-
-	const handlePageChange = page => setCurrentPage(page);
-
 	return (
-		<div>
-			{/* We are passing the currentPage from state and the function to update it */}
-			<NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-			{/* Here we are calling the renderPage method which will return a component */}
-			{renderPage()}
+		<div className="container-fluid">
+			<div className="row">
+				<div className="col-md-4"></div>
+				<div className="col-md-8 panel-right px-0">
+					<section className="intro">
+						<h1 className="display-4">
+							Web Development Professional Portfolio
+						</h1>
+						<p>
+							I am an aspiring web developer. I began my software development
+							career in 2012, with the majority of my experience focusing
+							primarily on Windows desktop applications. I am excited by the
+							creative freedom that web development allows me to showcase.
+						</p>
+					</section>
+					<ProjectList />
+					<Footer />
+				</div>
+			</div>
 		</div>
 	);
 }
